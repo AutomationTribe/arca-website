@@ -28,6 +28,8 @@ import { AccountSwitchComponent } from './account-switch/account-switch.componen
 import { PaymentGatewayComponent } from './payment-gateway/payment-gateway.component';
 import { StoredValueAccountComponent } from './stored-value-account/stored-value-account.component';
 import { CardMgtComponent } from './card-mgt/card-mgt.component';
+import { Section6Component } from './section6/section6.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { CardMgtComponent } from './card-mgt/card-mgt.component';
     AccountSwitchComponent,
     PaymentGatewayComponent,
     StoredValueAccountComponent,
-    CardMgtComponent
+    CardMgtComponent,
+    Section6Component,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
@@ -120,6 +124,10 @@ import { CardMgtComponent } from './card-mgt/card-mgt.component';
       {
         path:'card-mgt',
         component:CardMgtComponent
+      },
+      {
+        path:'contact-us',
+        component:ContactUsComponent
       }
     ])
   ],
