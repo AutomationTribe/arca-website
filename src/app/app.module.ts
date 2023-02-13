@@ -30,6 +30,7 @@ import { StoredValueAccountComponent } from './stored-value-account/stored-value
 import { CardMgtComponent } from './card-mgt/card-mgt.component';
 import { Section6Component } from './section6/section6.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CollapseNavbarComponent } from './collapse-navbar/collapse-navbar.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     StoredValueAccountComponent,
     CardMgtComponent,
     Section6Component,
-    ContactUsComponent
+    ContactUsComponent,
+    CollapseNavbarComponent
   ],
   imports: [
     BrowserModule,
