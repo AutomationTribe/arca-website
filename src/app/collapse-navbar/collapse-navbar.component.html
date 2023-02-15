@@ -8,30 +8,53 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                   <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link mr-5" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           About Us
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Our Profile</a>
-          <a class="dropdown-item" href="#">Board of Directors</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown mx-5">
+          <a class="dropdown-item" routerLink="about-us"><img src="../../assets/our-profile.png"  class="img-fluid menu-logo mr-2"/>Our Profile</a>
+          <a class="dropdown-item mr-5" routerLink="management-team"><img src="../../assets/management-team.png"  class="img-fluid menu-logo mr-2"/>Management Team</a>
+          <a class="dropdown-item" href="#"><img src="../../assets/management-team.png"  class="img-fluid menu-logo mr-2"/>Board of Directors</a>
         </div>
       </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Product & Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Careers</a>
-                      </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                  <button class="btn">Knowledege Base</button>
-                  <button class="btn btn-primary">Contact Us</button>
-                  </form>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle mr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products & Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown mt-5 pb-5" style="width:750px ;">
+            <div class="row">
+                <div class="col-md-6">
+                  <h6 class="mx-3 mb-3" style="font-weight:bold ;">PRODUCTS</h6>
+                  <a routerLink="terminal-mgt" style="color:gray;" class="dropdown-item" type="button"><img src="../../assets/terminal-icon.png" style="float:left ;width:20px;position: relative;" class="mx-2"/>Terminal Management System</a>
+                  <a routerLink="stored-value-account" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/stored-value-menu.png" style="float:left ;width:20px;position: relative;" class="mx-2"/>Stored Value Account</a>
+                  <a routerLink="account-switch" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/account-switch-menu.png" style="float:left ;width:20px;position: relative;" class="mx-2"/>Account to Account Switch</a>
+                  <a routerLink="payment-gateway" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/pg-menu.png" style="float:left ;width:20px;position: relative;" class="mx-2"/>Arca Payment Gateway</a>
+                  <a routerLink="card-mgt" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/card-mgt-menu.png" style="float:left ;width: 20px;position: relative;" class="mx-2"/>Card Management</a>
+                  <a routerLink="arca-pos" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/arca-pos-menu.png" style="float:left ;width:15px;position: relative;" class="mx-2"/>Arca POS</a>
                 </div>
-              </nav>
+                <div class="col-md-6">
+                  <h6 class="mx-3 mb-3" style="font-weight: bold ;">SERVICES</h6>
+                  <a routerLink="transactionProcessing" style="color:gray;"  class="dropdown-item mr-5 pr-5" type="button"><img src="../../assets/card-mgt-menu.png" style="float:left ;width:20px;"/>Transaction Processing & Switching</a>
+                  <a routerLink="ptsp" style="color:gray;"  class="dropdown-item mr-5" type="button"><img src="../../assets/arca-pos-menu.png" style="float:left ;width:20px;" class="mx-2"/>Payment Terminal Service Provider</a>
+                  <a routerLink="issuing" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/card-mgt-menu.png" style="float:left ;width:20px;" class="mx-2"/>Issuing</a>
+                  <a routerLink="ecommerce" style="color:gray;"   class="dropdown-item" type="button"><img src="../../assets/ecommerce-menu.png" style="float:left ;width:20px;" class="mx-2"/>Ecommerce</a>
+                </div>
+              </div>
+        </div>
+      </li>
+    <li class="nav-item">
+       <a class="nav-link mr-5" routerLink="careers">Careers</a>
+    </li>
+    </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <button class="btn knowledge mr-3" href="#">Knowledege Base</button>
+        <button class="btn btn-primary" routerLink="about-us">Contact Us</button>
+        </form>
+        </div>
+        </nav>
 
   
     
