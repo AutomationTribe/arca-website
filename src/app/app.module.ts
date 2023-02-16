@@ -31,6 +31,7 @@ import { CardMgtComponent } from './card-mgt/card-mgt.component';
 import { Section6Component } from './section6/section6.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { CollapseNavbarComponent } from './collapse-navbar/collapse-navbar.component';
+import { CollapseSection2Component } from './collapse-section2/collapse-section2.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { CollapseNavbarComponent } from './collapse-navbar/collapse-navbar.compo
     CardMgtComponent,
     Section6Component,
     ContactUsComponent,
-    CollapseNavbarComponent
+    CollapseNavbarComponent,
+    CollapseSection2Component
   ],
   imports: [
     BrowserModule,
